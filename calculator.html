@@ -1,0 +1,104 @@
+
+<html>
+<head>
+
+<style type="text/css">
+.Text {
+margin-bottom: 10px;
+width: 170px;
+height: 40px;
+font-size: 30px;
+border: solid 1px green;
+border-radius: 30px;
+}
+a{
+margin-right:3%;
+cursor: pointer;
+color:white;
+padding: 5px;	
+text-decoration:none;
+margin: 1%;
+}
+a:hover{
+border: 1px solid gray;
+color:white;
+background-color:gray;
+border-radius:20px 20px 20px 20px;
+margin: 1%;
+}
+.container-nav{
+background-color: black;
+padding: 10px;
+border:1px solid black;
+border-radius: 20px 20px 20px 20px;
+margin: 1%;
+margin-top:15px;
+}
+u {
+color:blue
+}
+h1 {
+font-size: 20px;
+color: green;
+}
+.all {
+margin-top: 50px;
+}
+.buttons {
+background-image: linear-gradient(to right, black,white);
+height:212px;
+width:180px;
+border:solid 2px black;
+border-radius: 30px;
+
+}
+.wet {
+border: solid 2px black;
+border-radius: 100px;
+font-size: 40px;
+}
+
+</style>
+
+
+
+</head>
+<body>
+<div id="firstPage">
+<div class="container-nav">
+<center>
+  <a href="portfolio.html">HOME</a>
+</center>
+</div>
+<center>
+<form>
+<div class="all">
+<u><h1>This is my personal Calculator</h1></u>
+<input type="text" name="text" class="Text" placeholder="0">
+<br>
+<div class="buttons">
+<input class="wet" type="button" value="1" onclick=text.value+="1">
+<input class="wet" type="button" value="2" onclick=text.value+="2">
+<input class="wet" type="button" value="3" onclick=text.value+="3">
+<input class="wet" type="button" value="-" onclick=text.value+="-">
+<br>
+<input class="wet" type="button" value="4" onclick=text.value+="4">
+<input class="wet" type="button" value="5" onclick=text.value+="5">
+<input class="wet" type="button" value="6" onclick=text.value+="6">
+<input class="wet" type="button" value="+" onclick=text.value+="+">
+<br>
+<input class="wet" type="button" value="7" onclick=text.value+="7">
+<input class="wet" type="button" value="8" onclick=text.value+="8">
+<input class="wet" type="button" value="9" onclick=text.value+="9">
+<input class="wet" type="button" value="÷" onclick=text.value+="/">
+<br>
+<input class="wet" type="button" value="A" onclick="alert('This (A) does not have a (value)')">
+<input class="wet" type="button" value="D" onclick="text.value = ''"> 
+<input class="wet" type="button" value="=" onclick="text.value = eval(text.value)">
+<input class="wet" type="button" value="×" onclick=text.value+="*">
+</div>
+</div>
+</form>
+</center>
+</body>
+</html>

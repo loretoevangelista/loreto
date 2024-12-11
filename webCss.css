@@ -1,0 +1,111 @@
+#firstPage{
+background-color:gray;
+margin:-1%;
+padding:0%;
+height:105%;
+}
+h1{ color: blue;
+}
+a{
+margin-right:3%;
+cursor: pointer;
+color:white;
+padding: 5px;	
+text-decoration:none;
+margin: 1%;
+}
+a:hover{
+border: 1px solid gray;
+color:white;
+background-color:gray;
+border-radius:20px 20px 20px 20px;
+margin: 1%;
+}
+.container-nav{
+background-color: black;
+padding: 10px;
+border:1px solid black;
+border-radius: 20px 20px 20px 20px;
+margin: 1%;
+margin-top:15px;
+}
+.texts{
+font-weight: bold;
+width:40%;
+margin-top: -50px;
+margin: 2%;
+margin-top:-1%;
+}	
+#Name{
+font-size:50px;
+margin-bottom: -5px;
+text-shadow: 1px 3px 5px white;
+margin-top: -1%;
+margin-left:1%;
+}
+.pictures{
+margin-top: -43px;
+margin-bottom:490px;
+margin-left:1%;
+}
+
+img{
+padding:28px;
+margin-top:-20px;
+float:left;
+margin-right:-10px;
+}
+@media screen and (max-width: 1000px) and (min-width: 500px)
+{
+
+body{
+background-color: gold;
+}
+h1{ color: blue;
+margin: 1%;
+}
+a{
+margin-right:3%;
+cursor: pointer;
+color:white;
+padding: 5px;	
+margin: 1%;
+}
+a:hover{
+border: 1px solid gray;
+color:white;
+background-color:gray;
+border-radius:20px 20px 20px 20px;
+margin: 1%;
+}
+.container-nav{
+background-color: black;
+padding: 10px;
+border:1px solid black;
+border-radius: 20px 20px 20px 20px;
+margin: 1%;
+}
+.texts{
+font-weight: bold;
+width:40%;
+margin-top: -50px;
+margin: 1%;
+}	
+#Name{
+font-size:48px;
+margin-top:10px;
+text-shadow: 1px 3px 5px white;
+margin: 1%;
+}
+img{
+float:left;
+margin-right:54%;
+height: 18%;
+width:18%;
+}
+.pictures{
+margin-top: -43px;
+margin-bottom:490px;
+color:gray;
+}
+}
